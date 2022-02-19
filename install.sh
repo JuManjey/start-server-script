@@ -3,7 +3,7 @@ apt-get update && apt-get upgrade && apt-get dist-upgrade && apt autoclean && ap
 echo "OK"
 echo "Install python python2 python3 wget curl git htop tmux screen python3-pip memcached libmemcached-tools php-memcached deluge firefox"
 apt-get install python python3 wget curl git htop tmux screen python3-pip memcached libmemcached-tools php-memcached deluge firefox command-not-found tldr -y
-pip install pymemcache python-memcached -y
+pip install pymemcache python-memcached software-properties-common -y
 tldr update
 echo "OK"
 echo "Install Rust"
