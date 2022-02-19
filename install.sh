@@ -2,7 +2,7 @@ echo "Updating..."
 apt-get update && apt-get upgrade && apt-get dist-upgrade && apt autoclean && apt autoremove -y
 echo "OK"
 echo "Install python python2 python3 wget curl git htop tmux screen python3-pip memcached libmemcached-tools php-memcached"
-apt-get install python python3 wget curl git htop tmux screen python3-pip memcached libmemcached-tools php-memcached
+apt-get install python python3 wget curl git htop tmux screen python3-pip memcached libmemcached-tools php-memcached -y
 pip install pymemcache python-memcached
 echo "OK"
 echo "Install Rust"
