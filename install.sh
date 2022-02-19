@@ -15,6 +15,7 @@ echo "OK"
 echo "Install VirtualBox"
 sudo apt-get install linux-headers-5.4.0-100-generic
 sudo apt-get install virtualbox virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-qt -y
+modprobe vboxdrv
 echo "OK"
 echo "Install Webmin..."
 echo "deb http://download.webmin.com/download/repository sarge contrib" | sudo tee -a /etc/apt/sources.list
