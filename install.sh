@@ -13,6 +13,7 @@ echo "Install X2GO"
 apt-get install xubuntu-desktop x2goserver x2goserver-xsession x2goclient -y
 echo "OK"
 echo "Install VirtualBox"
+sudo apt-get install linux-headers-5.4.0-100-generic
 sudo apt-get install virtualbox virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-qt -y
 echo "OK"
 echo "Install Webmin..."
