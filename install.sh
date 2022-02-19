@@ -4,6 +4,7 @@ echo "OK"
 echo "Install python python2 python3 wget curl git htop tmux screen python3-pip memcached libmemcached-tools php-memcached deluge firefox"
 apt-get install python python3 wget curl git htop tmux screen python3-pip memcached libmemcached-tools php-memcached deluge firefox command-not-found tldr -y
 pip install pymemcache python-memcached -y
+tldr update
 echo "OK"
 echo "Install Rust"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -46,6 +47,8 @@ echo 'export GO111MODULE=on' >> $HOME/.bash_profile
 echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
 go version
 echo "OK"
+apt-get install -f
+apt-get update && apt-get upgrade && apt-get dist-upgrade && apt autoclean && apt autoremove -y
 
 
 
