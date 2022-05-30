@@ -42,7 +42,7 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
     --restart=always \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v portainer_data:/data \
-    cr.portainer.io/portainer/portainer-ce:2.11.0
+    cr.portainer.io/portainer/portainer-ce:2.13.1
 echo "OK"
 echo "Install Go"
 cd $HOME
