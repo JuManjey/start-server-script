@@ -6,9 +6,6 @@ apt-get install python python3 wget curl git htop tmux screen python3-pip memcac
 pip install pymemcache python-memcached software-properties-common  -y
 tldr update
 echo "OK"
-echo "Install Rust"
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-echo "OK"
 echo "Install X2GO"
 apt-get install xubuntu-desktop x2goserver x2goserver-xsession x2goclient -y
 echo "OK"
