@@ -21,10 +21,10 @@ wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
 sudo apt update -y
 sudo apt install webmin -y
 sudo ufw allow 10000
-echo "Install Virtualmin..."
-wget http://software.virtualmin.com/gpl/scripts/install.sh
-chmod a+x install.sh
-sudo ./install.sh
+#echo "Install Virtualmin..."
+#wget http://software.virtualmin.com/gpl/scripts/install.sh
+#chmod a+x install.sh
+#sudo ./install.sh
 echo "Install Docker"
 sudo apt install wget -y
 wget -O get-docker.sh https://get.docker.com
